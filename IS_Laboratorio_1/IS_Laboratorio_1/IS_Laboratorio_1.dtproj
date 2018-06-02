@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">SP-LAB9-09</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAA3BJOopWNUmp+B6GbOGV+QAAAAACAAAAAAADZgAAwAAAABAAAADv+YLCyjR1GGEtuD+KqAhXAAAAAASAAACgAAAAEAAAAOh6/WWW3VCYxzp14s4SfMCIAAAABF2HpdVlc3aXyyhuDImIfeMd6hmVyXE3aBhLpeeYq32V5ufT/3rNf8PnUD5nshNeubv6TQFQLLSmzBiy3ntcMn/N6aEZXwcqNivpLzXJ9WmW90LB7qpeHNIqIsrkOCxQCka+I9k4u1EwwmAJJq5pU685PyqoaVVNx+06Xq8kxOXTKq8HvyGFuBQAAADeGglB0MOuNJYf4yTWkftbGbv/TQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAA3BJOopWNUmp+B6GbOGV+QAAAAACAAAAAAADZgAAwAAAABAAAAAp97m3pvzpnEEcFG8oWCuDAAAAAASAAACgAAAAEAAAADsO1LvqLDTqFcPgqCUQ46eIAAAAZitpjx+86PGRDSCWeRc25deYT7oyU+LVJ3Pm+Lzz4/2jRErC9aDetK2UGqUmbSh9wi1qgWo3fcypcDLbhElbzk+PZH4AG52tcW5BtPSk5bVXcnUzZgLI+gJrzNlXdoaDN+tZryIgXHrAKnwjtGO2hJlz0SrlHM4WsDG5UcXZuY519+xtDWJQBhQAAAABqdyXBnVgeRXwHi64DDKQ8siVZg==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,10 +42,10 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{7450F2DC-5A6D-4709-A1EB-A6A5584AC1E6}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{31B5D160-C468-45ED-8606-2AC155FBE179}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -70,7 +70,13 @@
         <ConnectionSecurityMappings />
         <DatabaseStorageLocations />
         <TargetServerVersion>SQLServer2017</TargetServerVersion>
-        <ParameterConfigurationValues />
+        <ParameterConfigurationValues>
+          <ConfigurationSetting>
+            <Id>LastModifiedTime</Id>
+            <Name>LastModifiedTime</Name>
+            <Value xsi:type="xsd:dateTime">2018-06-02T01:16:41.0441224Z</Value>
+          </ConfigurationSetting>
+        </ParameterConfigurationValues>
       </Options>
     </Configuration>
   </Configurations>
