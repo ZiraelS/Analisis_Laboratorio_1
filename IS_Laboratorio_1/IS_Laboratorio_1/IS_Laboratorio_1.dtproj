@@ -26,11 +26,12 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">SP-LAB9-09</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAA3BJOopWNUmp+B6GbOGV+QAAAAACAAAAAAADZgAAwAAAABAAAABtpFozIPZRo/cub0Jf85lIAAAAAASAAACgAAAAEAAAAKt1rbKFSSt8gXaSgfNRw62IAAAAg+jKUrSRWlbFBX60EyTsGwa447OHeMZ0ABTTWc0pwY2bP1QvnX7b2J+cbpi/JWfs8K31261ouliLla4lJp+UhANkERjF4G1M8+rp2muwEgU62yG0gFML/lj21kky6Jt0/d2L2htno2lIcplXoR7t0gxkHpHSKhD8w97cevq7sOgv8hRVN8pKohQAAAA5qkDE9QgSZlgINRjtGKsnR0Za8Q==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAZuk0iYGgfUu+lvyNvnfGkgAAAAACAAAAAAAQZgAAAAEAACAAAADirrx3ePFY6Vva408QnVqErq3zhPxRkPga/ENcv8J5qAAAAAAOgAAAAAIAACAAAABf0S2UtzhqNuWlGWgq8FC7VkfvijUtkECgB4B4WWY0RpAAAAAnW34K8F45v8BwooWOJxx4/JEQEL2Pxt/Sz7qDrjE1fLiVb40xvpS2HItGU/4eAhGW6ge/Uswt6R6pE55jwTgQ9kLBiL2sEBNz9qzIWK6/3WaYzKMWcztuBrsDhoVleWOVYr9VWyCBU3XsHwEDhMDC2ASHgl7TIcZAVp9qurYW7XRr9v5X0/pLdheCNe8EZ2xAAAAAtN742DxT9/pLkRy8Y5h73ZeJagUe8Uqi1YjI37Axa9GPBDlIOye1MkYjks2KN15etMshwa7AHR2zxYFVaqxEbQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
           <SSIS:Package SSIS:Name="Paquete1.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Package2.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
@@ -42,10 +43,99 @@
                 <SSIS:Property SSIS:Name="Name">Paquete1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">15</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">17</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{8E738818-B125-4744-938F-EB3FD04ADBFE}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{168B7BA3-6C57-49CD-9828-DD5AE4EED944}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters>
+                <SSIS:Parameter SSIS:Name="operador">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">{9D0CD607-5E75-4F92-9299-385F9542058D}</SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="operando1">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">{A67C932E-AAB9-4A17-BF11-737275912573}</SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">2</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">14</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="operando2">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">{A7204764-8767-4169-AB04-71A02D2297D8}</SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">2</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">14</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="resultado">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">{B48928EC-65E5-4797-BBA9-0DE1863D2811}</SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">14</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="resultadocalculo">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">{1A859B81-A830-4823-8489-8A256A5F9444}</SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+              </SSIS:Parameters>
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="Package2.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{C17AC9F5-E727-4CBE-803C-D3AB2F01AED8}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">2</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{4EE4BB2A-AEA3-4AE1-AA31-2E0C922C7ED1}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -74,7 +164,7 @@
           <ConfigurationSetting>
             <Id>LastModifiedTime</Id>
             <Name>LastModifiedTime</Name>
-            <Value xsi:type="xsd:dateTime">2018-06-02T01:16:41.0441224Z</Value>
+            <Value xsi:type="xsd:dateTime">2018-06-07T23:36:19.721242Z</Value>
           </ConfigurationSetting>
         </ParameterConfigurationValues>
       </Options>
